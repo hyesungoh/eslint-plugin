@@ -23,7 +23,7 @@ jobs:
           registry-url: "https://npm.pkg.github.com"
 
       - name: Install dependencies
-        run: yarn
+        run: yarn install --immutable
 
       - name: Build
         run: yarn build
