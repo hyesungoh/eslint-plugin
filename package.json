@@ -1,5 +1,6 @@
 {
   "name": "@hyesungoh/eslint-plugin",
+  "version": "0.0.1",
   "description": "eslint and prettier configuration",
   "license": "MIT",
   "type": "commonjs",
