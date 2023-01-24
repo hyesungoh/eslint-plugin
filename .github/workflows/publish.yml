@@ -19,11 +19,11 @@ jobs:
       - name: Setup node
         uses: actions/setup-node@v3
         with:
-          node-version: "16.x"
+          node-version: 16.x
           registry-url: "https://npm.pkg.github.com"
 
       - name: Install dependencies
-        run: yarn install --immutable
+        run: yarn
 
       - name: Build
         run: yarn build
