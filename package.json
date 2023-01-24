@@ -13,6 +13,10 @@
     "email": "haesungoh414@gmail.com",
     "url": "https://www.hyesungoh.xyz"
   },
+  "files": [
+    "dist",
+    "src"
+  ],
   "main": "./dist/index.js",
   "exports": {
     ".": {
