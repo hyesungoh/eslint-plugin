@@ -3,7 +3,9 @@ const react = require("./react");
 const typescript = require("./typescript");
 
 module.exports = {
-  base,
-  react,
-  typescript,
+  configs: {
+    base,
+    react,
+    typescript,
+  },
 };
