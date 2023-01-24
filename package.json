@@ -2,6 +2,10 @@
   "name": "@hyesungoh/eslint-plugin",
   "version": "0.0.1",
   "description": "eslint and prettier configuration",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hyesungoh/eslint-plugin"
+  },
   "license": "MIT",
   "type": "commonjs",
   "author": {
@@ -16,6 +20,9 @@
       "require": "./dist/index.js",
       "import": "./dist/index.mjs"
     }
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "packageManager": "yarn@3.3.1",
   "scripts": {
