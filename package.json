@@ -1,6 +1,6 @@
 {
   "name": "@hyesungoh/eslint-plugin",
-  "version": "0.0.4",
+  "version": "1.0.0",
   "description": "eslint and prettier configuration",
   "repository": {
     "type": "git",

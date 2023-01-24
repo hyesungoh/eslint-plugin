@@ -9,8 +9,6 @@ module.exports = {
         allow: ["warn", "error"],
       },
     ],
-    // https://eslint.org/docs/latest/rules/no-use-before-define
-    "no-use-before-define": "off",
     // https://eslint.org/docs/latest/rules/no-restricted-exports
     "no-restricted-exports": "off",
     "prettier/prettier": [
