@@ -28,7 +28,7 @@ jobs:
       - name: Build
         run: yarn build
 
-      - nmae: Publish
+      - name: Publish
         run: npm publish
         env:
           NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
