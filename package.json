@@ -26,6 +26,7 @@
     }
   },
   "publishConfig": {
+    "@hyesungoh:registry": "https://npm.pkg.github.com",
     "access": "public"
   },
   "packageManager": "yarn@3.3.1",
